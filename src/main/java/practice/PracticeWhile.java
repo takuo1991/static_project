@@ -1,14 +1,14 @@
 package practice;
+
 public class PracticeWhile {
 
-        public static void main(String[] args) {
-                int num = 100; 
+	public static void main(String[] args) {
+		int num = 100;
 
-                while (num > 0) { 
-                        num = num -1;
+		while (num > 0) {
+			num--;
 
-                        System.out.println(num);
-                }
-        }
-
+			System.out.println(num);
+		}
+	}
 }
